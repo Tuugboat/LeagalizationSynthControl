@@ -47,3 +47,7 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+Data/tedsa_puf_2015_2019.csv
+Data/tedsa_puf_2010_2014.csv
+Data/tedsa_puf_2005_2009.csv
+Data/tedsa_puf_2000_2004.csv

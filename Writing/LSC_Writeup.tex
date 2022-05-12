@@ -1,0 +1,79 @@
+\documentclass{article}
+
+% Math packages
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{float}
+
+% R Table packages
+% booktabs and float are used frequently by kableExtra output from R
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{xcolor}
+
+% Page layout libraries
+\usepackage{a4wide}
+\usepackage{setspace}
+\usepackage{geometry}
+%\usepackage{parskip}
+\usepackage{fancyhdr}
+
+% Setting up the heading style preferred here
+\pagestyle{fancy}
+\fancyhead[L]{\thepage}
+\fancyhead[C]{}
+\fancyhead[R]{\textrm{Robert Petit}}
+\fancyfoot[L, C, R]{}
+
+
+% this package helps us with including images. Setting the graphics path makes it easier to refer to things in the \includegraphics command.
+\usepackage{graphicx}
+\graphicspath{ {../Figures/} }
+
+% And finally, continuing on my crusade to make Helvetica the universal standard
+\usepackage[scaled]{helvet}
+\renewcommand\familydefault{\sfdefault} 
+\usepackage[T1]{fontenc}
+
+% Titling
+\title{Gateway To Sobriety \\
+    \large The Impact of Marijuana Legalization on Other Drug Use}
+\author{Robert Petit}
+\date{May 2022}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+
+
+
+\section{Background}
+
+\section{Data}
+
+Our data is assembled from two sources: The SAMHDA Treatment Episode Data Set: Admissions (TEDS-A) \cite{TEDS} from 2000 to 2019, and the US Census Bureau's Total Population Estimates for 2000-2009 \cite{USCen09} and 2010-2019 \cite{USCen19}. The TEDS-A data contains information on admissions to alcohol or drug treatment facilities that receive public funds. Some states are very inconsistent in their reporting across years:  Alabama, Alaska, the District of Columbia,  Mississippi, Oregon, South Carolina, Washington, and West Virginia all report no admissions for at least one year. Because of this, we exclude them entirely from our data set. 
+
+With the remaining states, we build a summary per state, per year, of the total number of admissions to drug and alcohol treatment facilities. The TEDS-A data records the primary substance used prior to admission, so we separate our analysis into alcohol, cocaine, marijuana, heroin, non-heroin opioids (such as codeine), benzodiazepines, and all non-marijuana admissions. Our primary interest is to understand the effect in terms of substitution between marijuana and other drugs, but the further categorization may show what drugs are more or less sensitive to the change. From this, we construct the rate of admission per 100,000 residents based on the US Census' per-year population estimates. We also regularly use the natural log of these rates to get an idea of the percentage change in the pre- and post-legalization groups.
+
+This analysis comes with several important limitations. The number of institutions reporting is not well-distributed across states, so it is a generally poor comparison of the drug abuse across states. One notable, if macabre, fact of this analysis is that these are often life-saving treatments and some admissions are repeat admissions for the same individuals. Because of this, states that have this care widely available will see an increase both due to their expanded capacity and due to those individuals continuing to live and being readmitted in the future where they otherwise would show up in neither category. It is \emph{extremely} important, given this, to not interpret one state A having more admissions than state B to mean that state B has less drug use; the only valid interpretation is for any given states \emph{change} to be representative of that states \emph{change} in drug abuse. Thankfully, the treatment facilities within a state are generally consistent, so it is a decent proxy for comparing an individual states drug abuse year over year. 
+
+The key variable is a count of the number of drug abuses that eventually led to medical treatment. The majority of drug usage will not immediately lead to treatment, not all drugs are equally likely to induce medical issues, and not all drugs have uniformly-available treatment within states: opiates in particular have widely varying care programs available. States also have different reporting requirements, with the lowest requirement being the specific patient benefitting from public funds while other states report from publically funded facilities, and may have different funds available. Our key state, Colorado, has relatively high availability of treatment and reporting standards, so the data it provides is both reliable and more consistent than the national norm.
+
+\input{../Tables/Table_RatSum.tex}
+
+As you can see in table \ref{tab:RatSum}, despite the expanding care, the nationwide and the Colorado usage rates of abuse are decreasing generally, with the notable exceptions of opiates and heroin.  The two time frames for these tables is large: 2000-2012 for the pre-treatment, 2013-2019 for the post-treatment group. 
+
+
+
+\section{Methods}
+
+\section{Results}
+
+\section{Conclusion}
+
+\bibliography{LSC_Bib}
+\bibliographystyle{plain}
+
+\end{document}
