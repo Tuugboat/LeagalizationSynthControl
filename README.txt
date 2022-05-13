@@ -19,5 +19,5 @@ Usage_ByStateYear is the principal data set for this project. It contains the fo
 
 Data Source:
 TEDS: https://www.samhsa.gov/data/data-we-collect/teds-treatment-episode-data-set
-2010-2019 Census: https://www.census.gov/data/datasets/time-series/demo/popest/2010s-state-total.html
+2010-2019 Census: https://www.census.gov/data/tables/time-series/demo/popest/2010s-state-detail.html
 2000-2009 Census: https://www.census.gov/data/datasets/time-series/demo/popest/intercensal-2000-2010-state.html

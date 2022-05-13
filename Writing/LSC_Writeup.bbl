@@ -1,21 +1,11 @@
 \begin{thebibliography}{}
 
-\bibitem[CDC, 2021]{CDCOpEpi}
- (2021).
-\newblock Understanding the epidemic.
-
 \bibitem[Abadie et~al., 2010]{SynthControl}
 Abadie, A., Diamond, A., and Hainmueller, J. (2010).
 \newblock Synthetic control methods for comparative case studies: Estimating
   the effect of california's tobacco control program.
 \newblock {\em Journal of the American Statistical Association},
   105(490):493--505.
-
-\bibitem[Abuse and Administration, 2019]{TEDS}
-Abuse, S. and Administration, M. H.~S. (2019).
-\newblock Treatment episode data set: Admissions (teds-a) 2000-2019.
-\newblock
-  https://www.datafiles.samhsa.gov/dataset/treatment-episode-data-set-admissions-2000-2019-teds-2000-2019-ds0001.
 
 \bibitem[Boslaugh, 2016]{SAGE}
 Boslaugh, S. (2016).
@@ -40,8 +30,18 @@ Caulkins, J.~P., Kilmer, B., Kleiman, M. A.~R., MacCoun, R.~J., Midgette, G.,
 \newblock {\em Consequences of Marijuana Use}.
 \newblock RAND Corporation.
 
+\bibitem[CDC, 2021]{CDCOpEpi}
+CDC (2021).
+\newblock Understanding the epidemic.
+
 \bibitem[Coffman and Neroulias, 2012]{Reuters}
 Coffman, K. and Neroulias, N. (2012).
 \newblock Colorado, washington first states to legalize recreational pot.
+
+\bibitem[SAMHSA, 2019]{TEDS}
+SAMHSA (2019).
+\newblock Treatment episode data set: Admissions (teds-a) 2000-2019.
+\newblock
+  https://www.datafiles.samhsa.gov/dataset/treatment-episode-data-set-admissions-2000-2019-teds-2000-2019-ds0001.
 
 \end{thebibliography}

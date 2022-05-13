@@ -30,8 +30,9 @@ librarian::shelf(
   snakecase,
   foreach,
   RColorBrewer,
-  tictoc
+  tictoc,
   # Here down is project specific
+  tidysynth
 )
 
 # tell here where we are so we can use it elsewhere
