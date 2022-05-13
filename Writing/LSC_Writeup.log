@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.12)  12 MAY 2022 15:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.12)  12 MAY 2022 18:26
 entering extended mode
 **c:/Users/rober/Desktop/CI/LegalizationSynthControl/Writing/LSC_Writeup.tex
 (c:/Users/rober/Desktop/CI/LegalizationSynthControl/Writing/LSC_Writeup.tex
@@ -185,6 +185,12 @@ Package: fancyhdr 2021/01/28 v4.0.1 Extensive control of page headers and footer
 \f@nch@O@erf=\skip61
 \f@nch@O@olf=\skip62
 \f@nch@O@orf=\skip63
+) (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip64
+\bibsep=\skip65
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count276
 ) (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2020/12/05 v1.2c Enhanced LaTeX Graphics (DPC,SPQR)
  (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
@@ -210,37 +216,37 @@ LaTeX Font Info:    Font shape `T1/phv/m/n' will be
 (Font)              scaled to size 9.49997pt on input line 112.
 ) (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-10-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count276
+\l__color_backend_stack_int=\count277
 \l__pdf_internal_box=\box56
 ) (LSC_Writeup.aux)
 \openout1 = `LSC_Writeup.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 45.
-LaTeX Font Info:    ... okay on input line 45.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
  (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count277
+\scratchcounter=\count278
 \scratchdimen=\dimen173
 \scratchbox=\box57
-\nofMPsegments=\count278
-\nofMParguments=\count279
+\nofMPsegments=\count279
+\nofMParguments=\count280
 \everyMPshowfont=\toks27
-\MPscratchCnt=\count280
+\MPscratchCnt=\count281
 \MPscratchDim=\dimen174
-\MPnumerator=\count281
-\makeMPintoPDFobject=\count282
+\MPnumerator=\count282
+\makeMPintoPDFobject=\count283
 \everyMPtoPDFconversion=\toks28
 ) (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -304,58 +310,58 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 16.41594pt on input line 46.
+(Font)              scaled to size 16.41594pt on input line 47.
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 46.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 46.
+(Font)              scaled to size 11.39996pt on input line 47.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 47.
 (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 47.
  (C:\Users\rober\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 13.67995pt on input line 48.
+(Font)              scaled to size 13.67995pt on input line 49.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 13.67995pt on input line 48.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 60.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 9.49997pt on input line 60.
- [1
+(Font)              scaled to size 13.67995pt on input line 49.
 
-{C:/Users/rober/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (../Tables/Table_RatSum.tex
+Overfull \hbox (3.05562pt too wide) in paragraph at lines 55--56
+[]\T1/phv/m/n/10 To es-ti-mate the ef-fect of recre-ational le-gal-iza-tion (the treat-ment) on hos-pi-tal-iza-tions for non-marijuana
+ []
+
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 64.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 9.49997pt on input line 64.
+[1
+
+{C:/Users/rober/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2] (../Tables/Table_RatSum.tex
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 9.49997pt on input line 10.
-) (LSC_Writeup.bbl
-Underfull \hbox (badness 7540) in paragraph at lines 11--16
-[]\T1/phv/m/n/10 United States Cen-sus Bu-reau.  State in-ter-censal pop-u-la-tion es-ti-mate: 2000-2009.
+) (LSC_Writeup.bbl [3]
+Underfull \hbox (badness 10000) in paragraph at lines 26--30
+[]\T1/phv/m/n/10 Bureau, U. S. C. (2009).  State in-ter-censal pop-u-la-tion es-ti-mate: 2000-2009.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--16
-\T1/phv/m/n/10 https://www.census.gov/data/datasets/time-series/demo/popest/intercensal-2000-2010-state.html,
+Underfull \hbox (badness 10000) in paragraph at lines 32--36
+[]\T1/phv/m/n/10 Bureau, U. S. C. (2019).  State pop-u-la-tion es-ti-mate: 2010-2019.
  []
 
-[2]
-Underfull \hbox (badness 10000) in paragraph at lines 18--23
-[]\T1/phv/m/n/10 United States Cen-sus Bu-reau.  State pop-u-la-tion es-ti-mate: 2010-2019.
- []
-
-) [3] (LSC_Writeup.aux) ) 
+) [4] (LSC_Writeup.aux) ) 
 Here is how much of TeX's memory you used:
- 4632 strings out of 478907
- 65549 string characters out of 2851891
- 382054 words of memory out of 3000000
- 22401 multiletter control sequences out of 15000+600000
+ 4994 strings out of 478907
+ 70036 string characters out of 2851891
+ 389236 words of memory out of 3000000
+ 22759 multiletter control sequences out of 15000+600000
  429419 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 61i,11n,70p,1164b,371s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 61i,11n,70p,1164b,343s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\rober\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk>{C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/rober/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on LSC_Writeup.pdf (3 pages, 38290 bytes).
+Output written on LSC_Writeup.pdf (4 pages, 45357 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
+ 43 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

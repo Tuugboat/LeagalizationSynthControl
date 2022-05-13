@@ -52,8 +52,11 @@ Full %>%
   kbl(caption="Summary of Admission Rates, CO Seperated",
       booktabs=T,
       format="latex",
-      label="RatSum") %>%
+      label="RatSum",
+      col.names=c("", "Alcohol", "Cocaine", "Marijuana", "Heroin", "Opiates", "BZD", "All Non-Marijuana")) %>%
   kable_styling(latex_options=c("striped", "hold_position", "condensed")) %>%
+  
+  footnote(general = c("Units are admissions per year, per 100,000 people", "BZD is Benzodiazepine")) %>%
   
   pack_rows(index = table(fct_inorder(Full$SetID))) %>%
   

@@ -1,24 +1,47 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{}
 
-\bibitem{TEDS}
-Substance Abuse and Mental Health~Services Administration.
+\bibitem[CDC, 2021]{CDCOpEpi}
+ (2021).
+\newblock Understanding the epidemic.
+
+\bibitem[Abadie et~al., 2010]{SynthControl}
+Abadie, A., Diamond, A., and Hainmueller, J. (2010).
+\newblock Synthetic control methods for comparative case studies: Estimating
+  the effect of california's tobacco control program.
+\newblock {\em Journal of the American Statistical Association},
+  105(490):493--505.
+
+\bibitem[Abuse and Administration, 2019]{TEDS}
+Abuse, S. and Administration, M. H.~S. (2019).
 \newblock Treatment episode data set: Admissions (teds-a) 2000-2019.
 \newblock
-  https://www.datafiles.samhsa.gov/dataset/treatment-episode-data-set-admissions-2000-2019-teds-2000-2019-ds0001,
-  2019.
+  https://www.datafiles.samhsa.gov/dataset/treatment-episode-data-set-admissions-2000-2019-teds-2000-2019-ds0001.
 
-\bibitem{USCen09}
-United States~Census Bureau.
+\bibitem[Boslaugh, 2016]{SAGE}
+Boslaugh, S. (2016).
+\newblock page 1758.
+\newblock SAGE Publications, Inc.
+
+\bibitem[Bureau, 2009]{USCen09}
+Bureau, U. S.~C. (2009).
 \newblock State intercensal population estimate: 2000-2009.
 \newblock
-  https://www.census.gov/data/datasets/time-series/demo/popest/intercensal-2000-2010-state.html,
-  2009.
+  https://www.census.gov/data/datasets/time-series/demo/popest/intercensal-2000-2010-state.html.
 
-\bibitem{USCen19}
-United States~Census Bureau.
+\bibitem[Bureau, 2019]{USCen19}
+Bureau, U. S.~C. (2019).
 \newblock State population estimate: 2010-2019.
 \newblock
-  https://www.census.gov/data/datasets/time-series/demo/popest/2010s-state-total.html,
-  2019.
+  https://www.census.gov/data/datasets/time-series/demo/popest/2010s-state-total.html.
+
+\bibitem[Caulkins et~al., 2015]{MedicRev}
+Caulkins, J.~P., Kilmer, B., Kleiman, M. A.~R., MacCoun, R.~J., Midgette, G.,
+  Oglesby, P., Pacula, R.~L., and Reuter, P.~H. (2015).
+\newblock {\em Consequences of Marijuana Use}.
+\newblock RAND Corporation.
+
+\bibitem[Coffman and Neroulias, 2012]{Reuters}
+Coffman, K. and Neroulias, N. (2012).
+\newblock Colorado, washington first states to legalize recreational pot.
 
 \end{thebibliography}

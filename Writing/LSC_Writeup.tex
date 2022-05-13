@@ -18,6 +18,7 @@
 \usepackage{geometry}
 %\usepackage{parskip}
 \usepackage{fancyhdr}
+\usepackage{natbib}
 
 % Setting up the heading style preferred here
 \pagestyle{fancy}
@@ -47,15 +48,32 @@
 
 \section{Introduction}
 
+The role of marijuana in modern society is one of incredible debate. From ethical concerns, to discussion about tax revenue, to mental health claims, the debate over the possibility and propriety of legalized marijuana awash in trade-offs and varied goalposts.
 
+Here, the question is about the substitution of marijuana for other, more harmful drugs. We will leverage evidence from one of the first states to determine what effect, if any, the legalization of marijuana for recreation use has on treatment admissions for alcohol, cocaine, heroin, opiates, benzodiazepine, and how these relate to changes in marijuana admissions in response to the change in legislation.
+
+To estimate the effect of recreational legalization (the treatment) on hospitalizations for non-marijuana drug usage (the outcome of interest), we will construct a synthetic control study, following the design in Abadie, Diamond, and Haunmueller \citeyearpar{SynthControl}, and evaluate the observed outcomes against the unobserved, hypothetical unobserved outcomes. This difference will estimate the average treatment effect on the treated group for a collection of related outcomes.
 
 \section{Background}
 
+% For MedicRev, harmful effects are pp. 27-48. Substitution is pp. 157-162.
+
+Since it's first prohibition in 1911 \citep{SAGE}, states have been slowly moving away from outright prohibition to decriminalization, medical legalization, and finally to full recreational legalization. The first states to recreationally legalize were Denver and Washington \citep{Reuters}, both in 2012. This has led to an onslaught of quantitative analysis of varying degrees of quality, all of it aimed at asking the simple question: was this a good idea?
+
+
+One of the primary concerns over recreational legalization is the idea that marijuana is a "gateway" drug, a substance that, while not as harmful as other drugs, serves as a stepping stone for otherwise drug-free individuals to eventually find their way to more harmful and addictive substances. The typical counterargument is that, by legalizing marijuana, you make the less-harmful drug more attractive than other, still illegal, more harmful drugs causing user to substitute \emph{away} from those drugs, using less than they would otherwise.
+
+Though the question of relative harm on a per-user basis in adults is mostly settled \citep[p. 27-48]{MedicRev} there are still some questions as to the total harm, which accounts for both the per-user harm and the total amount of use. The question of substitution is vitally important here: advocates for legalization argue that marijuana and other psychoactive drugs are net substitutes, and more of one leads to less of the other, while detractors argue that they are net compliments, and more of one leads to more of the other \citep[p. 157-162]{MedicRev}. While these are not completely exclusive relationships in principle, all psychoactive drugs are undoubtedly some degree of both substitutes for and compliments to one another, the magnitude of each is the key question: the larger effect is the prevailing outcome.
+
+This study will illuminate that relationship and uncover the effect of marijuana on other substance abuse. In the case that marijuana is a net substitute for other drugs, we would expect to see a decrease in the number of admissions to drug treatment facilities in the post-treatment period, relative to the synthesized control group. In the case that they are net compliments, we would expect the opposite effect.
+
 \section{Data}
 
-Our data is assembled from two sources: The SAMHDA Treatment Episode Data Set: Admissions (TEDS-A) \cite{TEDS} from 2000 to 2019, and the US Census Bureau's Total Population Estimates for 2000-2009 \cite{USCen09} and 2010-2019 \cite{USCen19}. The TEDS-A data contains information on admissions to alcohol or drug treatment facilities that receive public funds. Some states are very inconsistent in their reporting across years:  Alabama, Alaska, the District of Columbia,  Mississippi, Oregon, South Carolina, Washington, and West Virginia all report no admissions for at least one year. Because of this, we exclude them entirely from our data set. 
+Our data is assembled from two sources: The SAMHDA Treatment Episode Data Set: Admissions (TEDS-A) \citep{TEDS} from 2000 to 2019, and the US Census Bureau's Total Population Estimates for 2000-2009 \citep{USCen09} and 2010-2019 \citep{USCen19}. The TEDS-A data contains information on admissions to alcohol or drug treatment facilities that receive public funds. Some states are very inconsistent in their reporting across years:  Alabama, Alaska, the District of Columbia,  Mississippi, Oregon, South Carolina, Washington, and West Virginia all report no admissions for at least one year. Because of this, we exclude them entirely from our data set. 
 
-With the remaining states, we build a summary per state, per year, of the total number of admissions to drug and alcohol treatment facilities. The TEDS-A data records the primary substance used prior to admission, so we separate our analysis into alcohol, cocaine, marijuana, heroin, non-heroin opioids (such as codeine), benzodiazepines, and all non-marijuana admissions. Our primary interest is to understand the effect in terms of substitution between marijuana and other drugs, but the further categorization may show what drugs are more or less sensitive to the change. From this, we construct the rate of admission per 100,000 residents based on the US Census' per-year population estimates. We also regularly use the natural log of these rates to get an idea of the percentage change in the pre- and post-legalization groups.
+With the remaining states, we build a summary per state, per year, of the total number of admissions to drug and alcohol treatment facilities. The TEDS-A data records the primary substance used prior to admission, so we separate our analysis into alcohol, cocaine, marijuana, heroin, non-heroin opioids (such as codeine), benzodiazepines, and all non-marijuana admissions. Our primary interest is to understand the effect in terms of substitution between marijuana and other drugs, but the further categorization may show what drugs are more or less sensitive to the change. We consider heroin and other opiates separately since the two groups will have their own non-trivial characteristics in practice. Even though heroin is an opiate it is more widely available, typically ingested differently, and has a very different mortality rate than prescription opiates such as codeine, which make up a large amount of the non-heroin opiate category.
+
+From the admission numbers, we construct the rate of admission per 100,000 residents based on the US Census' per-year population estimates. We also regularly use the natural log of these rates to get an idea of the percentage change in the pre- and post-legalization groups.
 
 This analysis comes with several important limitations. The number of institutions reporting is not well-distributed across states, so it is a generally poor comparison of the drug abuse across states. One notable, if macabre, fact of this analysis is that these are often life-saving treatments and some admissions are repeat admissions for the same individuals. Because of this, states that have this care widely available will see an increase both due to their expanded capacity and due to those individuals continuing to live and being readmitted in the future where they otherwise would show up in neither category. It is \emph{extremely} important, given this, to not interpret one state A having more admissions than state B to mean that state B has less drug use; the only valid interpretation is for any given states \emph{change} to be representative of that states \emph{change} in drug abuse. Thankfully, the treatment facilities within a state are generally consistent, so it is a decent proxy for comparing an individual states drug abuse year over year. 
 
@@ -63,7 +81,7 @@ The key variable is a count of the number of drug abuses that eventually led to 
 
 \input{../Tables/Table_RatSum.tex}
 
-As you can see in table \ref{tab:RatSum}, despite the expanding care, the nationwide and the Colorado usage rates of abuse are decreasing generally, with the notable exceptions of opiates and heroin.  The two time frames for these tables is large: 2000-2012 for the pre-treatment, 2013-2019 for the post-treatment group. 
+As you can see in table \ref{tab:RatSum}, despite the expanding care, the nationwide and the Colorado usage rates of abuse are decreasing generally, with the notable exceptions of opiates and heroin.  The two time frames for these tables is large: 2000-2012 for the pre-treatment, 2013-2019 for the post-treatment group. The post-treatment group includes 'third wave' of the opioid epidemic that began in 2013 and continued to gain speed until 2018 \citep{CDCOpEpi}. The difference in the standard deviations are somewhat expected here, since the nationwide mean includes observations for every state, which are far more distributed by construction.
 
 
 
@@ -74,6 +92,6 @@ As you can see in table \ref{tab:RatSum}, despite the expanding care, the nation
 \section{Conclusion}
 
 \bibliography{LSC_Bib}
-\bibliographystyle{plain}
+\bibliographystyle{apalike}
 
 \end{document}
