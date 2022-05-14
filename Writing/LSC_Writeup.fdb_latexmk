@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex LSC_Writeup"] 1652432523 "LSC_Writeup.aux" "LSC_Writeup.bbl" "LSC_Writeup" 1652433375
+["bibtex LSC_Writeup"] 1652432523 "LSC_Writeup.aux" "LSC_Writeup.bbl" "LSC_Writeup" 1652433519
   "C:/Users/rober/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/apalike.bst" 1291976391 24635 604dafcc79f521a11ea73e506e1fbd98 ""
   "LSC_Bib.bib" 1652432369 2919 13ea7b19ee9a5ad6ecf5f14e01e24417 ""
-  "LSC_Writeup.aux" 1652433375 2949 95f34d5a2bb4f61b718062c31543e824 "pdflatex"
+  "LSC_Writeup.aux" 1652433519 2949 95f34d5a2bb4f61b718062c31543e824 "pdflatex"
   (generated)
   "LSC_Writeup.bbl"
   "LSC_Writeup.blg"
-["pdflatex"] 1652433370 "c:/Users/rober/Desktop/CI/LegalizationSynthControl/Writing/LSC_Writeup.tex" "LSC_Writeup.pdf" "LSC_Writeup" 1652433375
+["pdflatex"] 1652433514 "c:/Users/rober/Desktop/CI/LegalizationSynthControl/Writing/LSC_Writeup.tex" "LSC_Writeup.pdf" "LSC_Writeup" 1652433519
   "../Figures//Figure_MSPERat_Alcohol.png" 1652424825 77791 231c280b13f4eef06a4ca379ade1d502 ""
   "../Figures//Figure_MSPERat_Cocaine.png" 1652424731 76442 44888cb0d338d02e264bb25b88b931fe ""
   "../Figures//Figure_MSPERat_Heroin.png" 1652424877 75060 18ba310fe5127a9a7613336878a463bd ""
@@ -105,10 +105,10 @@
   "C:/Users/rober/AppData/Local/Programs/MiKTeX/tex/latex/setspace/setspace.sty" 1324297677 22913 a27d7908fc6f0385466454a966a316eb ""
   "C:/Users/rober/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1622550326 12689 a1a7b2795918756dcb9c9cbfacc4d9c7 ""
   "C:/Users/rober/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1636288472 56029 3f7889dab51d620aa43177c391b7b190 ""
-  "LSC_Writeup.aux" 1652433375 2949 95f34d5a2bb4f61b718062c31543e824 "pdflatex"
+  "LSC_Writeup.aux" 1652433519 2949 95f34d5a2bb4f61b718062c31543e824 "pdflatex"
   "LSC_Writeup.bbl" 1652432523 1678 cb24009ede3d8408ee693beaf4e4e27c "bibtex LSC_Writeup"
-  "LSC_Writeup.tex" 1652433353 20778 311d922d6e6e54b8e1e630fd6fdb1541 ""
-  "c:/Users/rober/Desktop/CI/LegalizationSynthControl/Writing/LSC_Writeup.tex" 1652433353 20778 311d922d6e6e54b8e1e630fd6fdb1541 ""
+  "LSC_Writeup.tex" 1652433513 20793 1dd6383e37ed165b645f2020a3475eef ""
+  "c:/Users/rober/Desktop/CI/LegalizationSynthControl/Writing/LSC_Writeup.tex" 1652433513 20793 1dd6383e37ed165b645f2020a3475eef ""
   (generated)
   "LSC_Writeup.aux"
   "LSC_Writeup.log"
